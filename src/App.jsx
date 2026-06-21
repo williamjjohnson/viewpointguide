@@ -4,7 +4,7 @@ import flowerLogo from './assets/wildflower.svg'
 import fallbackImage from './assets/flowernotfound.png'
 import './App.css'
 
-const flowers = await fetch('/api/flowers')
+const records = await fetch('/api/flowers')
   .then(r => r.json())
 
 console.log(records)
