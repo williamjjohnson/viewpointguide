@@ -40,8 +40,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="1.1081373"
-     inkscape:cx="300.05307"
-     inkscape:cy="260.3468"
+     inkscape:cx="189.5072"
+     inkscape:cy="217.03087"
      inkscape:window-width="1920"
      inkscape:window-height="974"
      inkscape:window-x="-11"
@@ -63,18 +63,6 @@
        style="fill:#d9b9e7;fill-opacity:1"
        d="m 320,784 12,4 8,8 -8,8 -12,-4"
        id="path2472" />
-    <path
-       style="fill:#e3c8f0;fill-opacity:1"
-       d="m 288,784 12,4 4,12 h -16"
-       id="path2470" />
-    <path
-       style="fill:#e1c3ee;fill-opacity:1"
-       d="m 272,784 h 16 v 16 h -16"
-       id="path2469" />
-    <path
-       style="fill:#c19dce;fill-opacity:1"
-       d="m 256,784 h 16 v 16 l -12,4 -8,-8"
-       id="path2468" />
     <path
        style="fill:#624f72;fill-opacity:1"
        d="m 320,752 12,4 -8,8"

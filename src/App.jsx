@@ -70,7 +70,11 @@ function FlowerFocus({ flower, onClose }) {
       </p>
 
       <p>
-        {flower.fields.notes}
+        <b>Habitat: </b>{flower.fields.habitat}
+      </p>
+
+      <p>
+        <b>Description: </b>{flower.fields.notes}
       </p>
 
     </div>
@@ -96,11 +100,12 @@ function App() {
 
       {!selectedColor && (
         <header className="hero">
-          <h1>Viewpoint Trail Wildflowers</h1>
-          <h2>
+          <h2>Viewpoint Trail Wildflowers</h2>
+          <img src={flowerLogo} alt="Flower" className="hero-img"/>
+          <p>
             A community-created field guide to wildflowers observed around Viewpoint Trail in Boulder, Colorado.
-            Browse flowers by color. Images and description provided by Harold Eyster.
-          </h2>
+            Browse flowers by color. Images and description provided by Harold Eylima with assistance from Kiran Eylima.
+          </p>
         </header>
       )}
 
@@ -129,6 +134,7 @@ function App() {
         />
         <FlowerCard
           title="White Flowers"
+          image="https://inaturalist-open-data.s3.amazonaws.com/photos/664438368/large.jpg"
           onClick={() => setSelectedColor('white')}
         />
         <FlowerCard
